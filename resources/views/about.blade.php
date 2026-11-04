@@ -9,17 +9,23 @@
       
 <nav>
     <a href="/">Home</a>
+    <a href="/tasks">Task List</a>
+    <a href="/profile">Profile</a>
     <a href="/about">About</a>
-    <a href="/customers">Customers</a>
-    <a href="/users">Users</a>
 </nav>
 
-    <h1>Welcome to the Home Page</h1>
+    <h1>Welcome to the About page Page</h1>
 
 <p>Developed using laravel POS System</p>
-<br><br><br><h1>BREAD</h1>
+
+<p>Name: Rafael Miguel N. Joaquin</p>
+<p>Section: TX32</p>
+<p>Course: IT0049 - Web System Technologies</p>
+<p>How does fight back?</p>
 
 
+
+<br><p>With diabetes</p>
 
 
 </body>

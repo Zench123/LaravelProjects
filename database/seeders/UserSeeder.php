@@ -18,26 +18,11 @@ class UserSeeder extends Seeder
 
 
         DB::table('users')->insert([
-            [
-                'username' => 'juan123',
+                  'username' => 'juan123',
                 'full_name' => 'Juan Dela Cruz',
-            ],
-            [
-                'username' => 'maria123',
-                'full_name' => 'Maria Santos',
-            ],
-            [
-                'username' => 'pedro123',
-                'full_name' => 'Pedro Reyes',
-            ],
-            [
-                'username' => 'ana123',
-                'full_name' => 'Ana Garcia',
-            ],
-            [
-                'username' => 'jose123',
-                'full_name' => 'Jose Cruz',
-            ],
+                'email' => 'juan123@gmail.com',
+                'created_at' => now(),
+                'updated_at' => now(),
         ]);
     }
 }
